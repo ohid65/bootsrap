@@ -1,0 +1,147 @@
+/* medium lay out 1200px */
+
+@media only screen and (min-width:992px) and (max-width:1200px){
+	.header-top-area, .header-top-area a {
+	    font-size: 13px;
+	}
+
+	.single-slide-item h2 {
+	    font-size: 50px;
+	}
+}
+/* tablet lay out 768px */
+
+@media only screen and (min-width:768px) and (max-width:991px){
+.header-top-area, .text-right, .logo, .mainmenu ul,.factorian-cta-area ,.single-slide-item {
+    text-align: center;
+}
+
+.col-md-6.text-right {}
+
+.mainmenu ul li a {
+    padding: 10px 20px;
+}
+
+
+.mainmenu li ul {
+    top: 80px;
+}
+
+.mainmenu li:hover ul {
+    top: 47px;
+}
+
+.single-slide-item h2 {
+    font-size: 45px;
+}
+
+.single-slide-item {
+    font-size: 21px;
+}
+
+
+a.factorian-btn.cta-btn {}
+
+.cta-btn {
+    margin-top: 10px;
+}
+
+.middle-text {
+    padding: 10px 0;
+}
+
+.padding-left-30 {
+    padding-top: 30px;
+}
+
+.footer-wid {
+    padding: 0;
+    padding-top: 50px;
+}
+
+.footer-top-area {
+    padding-bottom: 50px;
+}
+
+
+}
+/*  mobile lay out 320px */
+
+
+
+@media only screen  and (max-width:767px){
+
+.header-top-area, .text-right,  .factorian-cta-area ,.single-slide-item {
+    text-align: center;
+}
+
+/* ======= slick nav============ */
+.mainmenu{
+    display: none;
+}
+.header-top-area {
+    font-size: 14px;
+}
+
+.responsive-menu-wrap {}
+
+.responsive-menu-wrap {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 13px;
+}
+
+.mainmenu-area {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* ======= slick nav============ */
+
+
+.single-slide-item h2 {
+    font-size: 30px;
+}
+.single-slide-item p {
+    font-size: 15px;
+}
+.single-slide-item {
+    font-size: 21px;
+    height: 400px;
+
+}
+.hompage-slides .owl-nav div {
+    left: auto;
+    right: auto;
+    margin: 0px 10px;
+}
+
+.cta-btn {
+    margin-top: 10px;
+}
+
+.middle-text {
+    padding: 10px 0;
+}
+
+.padding-left-30 {
+    padding-top: 30px;
+}
+
+.footer-wid {
+    padding: 0;
+    padding-top: 50px;
+}
+
+.footer-top-area {
+    padding-bottom: 50px;
+}
+ 
+}
+/* wide mobile lay out 480px */
+
+@media only screen and (min-width:480px) and (max-width:767px){
+	
+}
